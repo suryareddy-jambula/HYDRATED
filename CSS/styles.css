@@ -1,6 +1,5 @@
 html{
-    font-family: "Bookman Old Style", serif;
-    background-color: skyblue;
+    background-color: #87ceeb;
 }
 /* General Reset */
 * {
@@ -10,7 +9,6 @@ html{
 }
 
 body {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
@@ -28,17 +26,21 @@ header {
     color: white;
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Space Mono', monospace;
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
+h1{
 
+}
 /* Navigation Menu */
 nav {
     margin: 20px 0;
+    font-size: 20px;
 
 }
 
@@ -60,7 +62,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: deepskyblue;
+    color: #00bfff;
 }
 .active {
     font-style: italic;
@@ -69,7 +71,9 @@ nav ul li a:hover {
 /* ---------- Header End------------- */
 
 .main_body{
-    min-height: 800px;
+    min-height: 90%;
+    font-family: 'Everson Mono',monospace;
+    font-size: 20px;
 }
 
 
