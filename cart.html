@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cart - Hydrate Technologies</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Team Hydrated">
+    <meta name="keywords" content="Water, Purifiers, Cart, Hydrate Technologies">
+    <meta name="description" content="Review your cart items and proceed to checkout.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include CSS files -->
+    <link rel="stylesheet" href="CSS/normalize.css" type="text/css">
+    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+    <link rel="stylesheet" href="CSS/cart.css" type="text/css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!-- Navigation Bar -->
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="Hydrate Technologies Logo">
+            <h1>Hydrate Technologies</h1>
+        </a>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <nav class="head_nav">
+            <ul class="head_nav_ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li class="active"><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="main_body">
+    <section class="cart-overview">
+        <h2>Your Shopping Cart</h2>
+        <div class="cart-list">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <img src="img/product1.jpg" alt="Reverse Osmosis System" class="cart-item-img">
+                <div class="cart-item-details">
+                    <h3>Reverse Osmosis System</h3>
+                    <p>Purifies water to be drinkable.</p>
+                    <span class="price">$199.99</span>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" value="1" min="1" class="quantity-input">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                </div>
+                <div class="cart-item-remove">
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <img src="img/product2.jpg" alt="ROS Dispenser" class="cart-item-img">
+                <div class="cart-item-details">
+                    <h3>ROS Dispenser</h3>
+                    <p>Ideal for functions and parties.</p>
+                    <span class="price">$149.99</span>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" value="2" min="1" class="quantity-input">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                </div>
+                <div class="cart-item-remove">
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart Summary -->
+        <div class="cart-summary">
+            <h3>Order Summary</h3>
+            <p>Subtotal: <span id="subtotal">$499.97</span></p>
+            <p>Tax: <span id="tax">$39.99</span></p>
+            <p>Total: <span id="total">$539.96</span></p>
+            <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Team Hydrated. All rights reserved.</p>
+    <div class="footer-links">
+        <a href="contact.html">Contact Us</a>
+        <a href="credits.html">Credits</a>
+    </div>
+</footer>
+<!-- External JavaScript -->
+<script src="JS/script.js"></script>
+</body>
+</html>
