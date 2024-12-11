@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4b80460-d977-4e20-a487-df3eb587f0a5" name="Changes" comment="updated font-family">
-      <change afterPath="$PROJECT_DIR$/JS/canadamap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/faq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/mapdata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/home_page_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/support.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/aboutus.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/aboutus.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/contactus.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/contactus.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/templogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-    </list>
+    <list default="true" id="c4b80460-d977-4e20-a487-df3eb587f0a5" name="Changes" comment="updated pages" />
     <list id="3ebe6c09-4a1a-46e7-8b13-12c457262841" name="Changes by Carlos Cueto" comment="" />
     <list id="bb46a7bf-5972-4e4e-b520-7ba0d7b304b1" name="Changes by riyaz" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +119,7 @@
       <workItem from="1731730171686" duration="572000" />
       <workItem from="1733342048150" duration="548000" />
       <workItem from="1733342618993" duration="4899000" />
-      <workItem from="1733937812685" duration="2782000" />
+      <workItem from="1733937812685" duration="3108000" />
     </task>
     <task id="LOCAL-00001" summary="git commit">
       <option name="closed" value="true" />
@@ -187,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729307274955</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated pages">
+      <option name="closed" value="true" />
+      <created>1733941509658</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733941509658</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated pages">
+      <option name="closed" value="true" />
+      <created>1733941592012</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733941592012</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +208,8 @@
     <MESSAGE value="git commit" />
     <MESSAGE value="updated readme" />
     <MESSAGE value="updated font-family" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated font-family" />
+    <MESSAGE value="updated pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
