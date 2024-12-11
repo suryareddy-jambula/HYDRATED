@@ -3,61 +3,84 @@
 <head>
     <title>About Us</title>
     <meta charset="UTF-8">
-    <meta name="author" content="Sepide">
+    <meta name="author" content="TeamHydrated">
     <meta name="keywords" content="Water">
     <meta name="description" content="Water">
-    <meta name="viewport" content="width=device-width, iniia-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css" type="text/css">
     <link rel="stylesheet" href="CSS/styles.css" type="text/css">
     <link rel="stylesheet" href="CSS/aboutus.css" type="text/css">
-    <link rel="stylesheet" href="CSS/normalize.css" type="text/css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<header class="header" role="banner">
+<header class="header">
     <div class="container">
-        <img src="img/templogo.png" alt="Website Logo">
-        <h1 >Hydrate Technologies</h1>
+        <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="Website Logo">
+            <h1 >Hydrate Technologies</h1></a>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+
         <nav class="head_nav">
             <ul class="head_nav_ul">
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="aboutus.html">About</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="faq.html">FAQ</a></li>
+                <li><a href ="support.html">Support</a></li>
             </ul></nav>
     </div>
 
 </header>
 <div class="main_body">
-<main>
-    <section id="about-us">
-        <h2>About Us</h2>
-        <p>Welcome to PureWater, your trusted partner in water purification solutions. Our mission is to provide safe, clean, and healthy water for everyone.</p>
-        <h3>Our Story</h3>
-        <p>Established in 2010, PureWater has been at the forefront of water purification technology. What started as a small initiative has now grown into a leading provider of water purification systems globally.</p>
-        <h3>Our Vision</h3>
-        <div></div>
-        <img alt="Girl With a bottle" class="about_us_img" src="img/girl_with_bottle.png">
-        <p>We envision a world where every individual has access to pure and safe drinking water. Our commitment to innovation and excellence drives us to constantly improve our products and services.</p>
-        <h3>Our Team</h3>
-        <p>Our team of experts is dedicated to ensuring that you receive the best water purification solutions. From engineers to customer service representatives, every team member is passionate about making a difference.</p>
-        <h3>Why Choose Us</h3>
-        <ul>
-            <li>State-of-the-art technology</li>
-            <li>High-quality products</li>
-            <li>Exceptional customer service</li>
-            <li>Eco-friendly solutions</li>
-            <li>Global reach</li>
-        </ul>
-        <h3>Contact Us</h3>
-        <p>If you have any questions or would like to learn more about our products and services, please don't hesitate to <a href="products.html">contact us</a>.</p>
-    </section>
-</main>
+    <main>
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to PureWater, where we are committed to creating clean, accessible water solutions. We combine innovation with sustainability to bring safe water to everyone, everywhere.</p>
+
+            <h3>Our Story</h3>
+            <div class="section-content">
+                <p>Founded in 2010, PureWater grew from a passion for solving the global water crisis. Starting from a small workshop, we have expanded worldwide, driven by our mission to make safe water accessible to all.</p>
+            </div>
+
+            <h3>Our Vision</h3>
+            <div class="section-content">
+                <img src="img/girl_with_bottle.png" alt="girl_with_bottle" class="section-img">
+                <p>We envision a future where everyone has access to pure water. Through cutting-edge technology and sustainable practices, we strive to make this vision a reality every day.</p>
+            </div>
+
+            <h3>Our Core Values</h3>
+            <ul class="values-list">
+                <li><strong>Integrity:</strong> Committed to honesty and transparency.</li>
+                <li> <strong>Quality:</strong> Providing high standards in every product.</li>
+                <li><strong>Sustainability:</strong> Reducing environmental impact.</li>
+                <li> <strong>Innovation:</strong> Leveraging technology for better solutions.</li>
+            </ul>
+
+            <h3>Our Team</h3>
+            <div class="section-content">
+                <p>Our diverse team of experts is passionate about water purification and customer satisfaction. With engineers, scientists, and dedicated support staff, we work together to bring you the best solutions.</p>
+            </div>
+
+            <h3>Why Choose Us</h3>
+            <ul class="choose-list">
+                <li> Advanced, eco-friendly purification technology</li>
+                <li> High-quality, durable products</li>
+                <li> Exceptional customer support</li>
+                <li> Committed to environmental impact reduction</li>
+            </ul>
+
+            <h3>Contact Us</h3>
+            <p>If you have any questions or want to learn more about us, <a href="contact.html">get in touch</a>! We're here to help you find the best water solutions.</p>
+        </section>
+    </main>
 </div>
 <footer>
     <p>&copy; 2024 Team Hydrated. All rights reserved.</p>
     <div class="footer-links">
         <a href="contact.html">Contact Us</a>
+        <a href="credits.html">Credits</a>
     </div>
 </footer>
+<script src="JS/script.js"></script>
 </body>
 </html>

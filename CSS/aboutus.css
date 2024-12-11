@@ -1,7 +1,36 @@
-.about_us_img{
-    height:900px;
-    width:1200px;
-}
-body{
 
+h2, h3 {
+    color: #0074cc;
 }
+
+.section-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-img {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.values-list, .choose-list {
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.values-list li, .choose-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.values-list li img, .choose-list li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
